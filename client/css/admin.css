@@ -1,0 +1,61 @@
+.link_off {
+    color: var(--bs-nav-link-color);
+}
+.admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    }
+    
+    .admin .container {
+    gap: 20px;
+    max-width: 500px;
+    background-color: rgb(33, 37, 41);
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0px 0px 25px whitesmoke;
+    }
+    
+    .admin h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    
+    .admin .form-label {
+    color: white;
+    }
+    
+    .admin .form-control {
+    background-color: #495057;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    }
+    .admin .btn-danger,
+    .admin .btn-primary {
+        width: 100%;
+        display: block;
+        margin-top: 10px;
+    }
+    .admin .form-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .admin .form-group .form-control {
+        margin-right: 10px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .admin .form-group .btn {
+        margin-left: 10px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
